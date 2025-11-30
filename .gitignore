@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Environment
+.env
+.env.*
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Poetry
+poetry.lock
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Database files
+*.sqlite3
+*.db
+
+# Logs and reports
+*.log
+*.coveragerc
+htmlcov/
+.coverage
+
+# Pytest
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# FastAPI specifics (optional)
+*.pid
+instance/
+.webassets-cache
