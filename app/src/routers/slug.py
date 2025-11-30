@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from src.urlshortener.api.slug import generate_slug
+from urlshortener.services.slug import generate_slug
 
 router = APIRouter()
 
